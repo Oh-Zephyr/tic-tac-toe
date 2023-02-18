@@ -1,0 +1,87 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(0, 255, 255, 0.15);
+}
+center{
+    height: 100vh;
+    width: 100%;
+}
+h1{
+    font-size: 60px;
+    color: orangered;
+}
+.ins{
+    color: blue;
+}
+header, main{
+    margin-top: -2.5%;
+}
+header{
+    height: 15%;
+}
+main{
+    height: 75%;
+}
+footer{
+    height: 10%;
+}
+.game_holder{
+    width: 30%;
+    height: 60%;
+    /* background-color: red; */
+}
+.holder{
+    width:100%;
+    height: 33%;
+}
+input{
+    width:30%;
+    height: 90%;
+}
+.btn{
+    background-color: aqua;
+    color: black;
+    border: 0px;
+    border-radius: 15%;
+    padding: 0.5%;
+}
+@media (max-width: 1110px) {
+    .game_holder{
+        width: 50%;
+    }
+}
+@media (max-width: 645px) {
+    .game_holder{
+        width: 70%;
+    }
+}
+@media (max-width: 470px) {
+    .game_holder{
+        width: 90%;
+        height: 50%;
+    }
+}
+@media (max-width: 355px) {
+    main{
+        height: 60%;
+    }
+    input{
+        width:20%;
+        height: 95%;
+    }
+}
+@media (max-width: 295px) {
+    h1{
+        font-size: 40px;
+    }
+    footer{
+        margin-top: 15%;
+    }
+}
+@media (max-width: 215px) {
+    footer{
+        margin-top: 35%;
+    }
+}

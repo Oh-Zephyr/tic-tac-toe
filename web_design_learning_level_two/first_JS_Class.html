@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Class</title>
+    <link rel="shortcut icon" href="./images/zephyr logo.jpg" type="image/x-icon">
+</head>
+<!-- <script src="./index.js"></script> -->
+<body>
+    <p>
+        - Functions and Events
+    </p>
+    <p>
+        - Event Listeners
+    </p>
+    <h1>Welcome to A New Step in the Journey of Learn Web Development</h1>
+    <!-- <button onclick="tryme()">Try me!!</button> -->
+
+    <input id="yearo" style="width: 35%; height: 50px;" type="number" placeholder="Enter your year of birth">
+    <p>
+        <button onclick="calculateAge()">Calculate your age</button>
+    </p>
+
+    <Script>
+        function calculateAge(){
+            // alert("Initial testing")
+            let currentYear = 2023;
+            let suppliedYear = document.getElementById("yearo").value;
+            let age = currentYear - suppliedYear;
+            alert(age);
+        }
+
+
+        // var student = "John"; //Global variable
+        // const PI = 3.142;
+
+        // function tryme(){
+        //     let student = "Grace"; //block variable
+        //     //variable declaration
+
+        //     // operators
+            
+        //     // arithemtic operators (+, -, /. %, *)
+        //     // assignment operator (=)
+        //     // logical operators (and; &&  or; ||)
+        //     // comparison operators (>,<, >=, <=, ==, ===)
+
+
+
+        //     // data types
+            
+        //     // strings
+        //     // numbers
+        //     // Boolean
+        //     // objects
+        //     // arrays
+
+        //     alert(student);
+
+        //     // camelCase
+        //     // snake_case
+        //     // kebab-case (not applicable in javascript)
+        //     // UPPERCASE
+        //     // lowercase
+        //     // PascalCase
+        // }
+    </Script>
+</body>
+</html>
