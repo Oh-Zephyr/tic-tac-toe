@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <center>
+        <header>
+            <!-- Game title -->
+            <h1>Tic Tac Toe</h1>
+        </header>
+        <main>
+            <!-- Game instructions beginning -->
+            <div class="ins">
+                Game starts by first player tapping on a box of their choice
+                <br><br>
+                First Player starts as <b>Player X</b>
+                <br><br>
+                AND
+                <br><br>
+                Second Player as <b>Player O</b>
+            </div>
+            <br>
+            <br>
+            <!-- Game instructions end -->
+
+
+            <!-- Game itself space beginning -->
+                <div class="game_holder">
+                    <div class="holder">
+                        <input type="text" id="b1" onclick="play1(); tap()" readonly>
+                        <input type="text" id="b2" onclick="play2(); tap()" readonly>
+                        <input type="text" id="b3" onclick="play3(); tap()" readonly>
+                    </div>
+                    <div class="holder">
+                        <input type="text" id="b4" onclick="play4(); tap()" readonly>
+                        <input type="text" id="b5" onclick="play5(); tap()" readonly>
+                        <input type="text" id="b6" onclick="play6(); tap()" readonly>
+                    </div>
+                    <div class="holder">
+                        <input type="text" id="b7" onclick="play7(); tap()" readonly>
+                        <input type="text" id="b8" onclick="play8(); tap()" readonly>
+                        <input type="text" id="b9" onclick="play9(); tap()" readonly>
+                    </div>
+                </div>
+            <!-- Game itself space ending -->
+
+
+            <!-- Game reset button  -->
+            <br>
+            <button type="reset" class="btn" onclick="resetnow()"><b>RESET</b></button>
+        </main>
+        <footer>
+            <!-- Indicator for player turn -->
+            <!-- Play turn in JS -->
+            <br>
+            <Span>
+                Turn: <b id="turn"></b>
+            </b></Span>
+            <br>
+            <Span>
+                Turn: <b id="print"></b>
+            </b></Span>
+        </footer>
+    </center>
+
+    <Script src="./index.js"></Script>
+</body>
+</html>
